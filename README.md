@@ -27,7 +27,7 @@ Ce README documente l’architecture réelle du projet, son pipeline exact et le
 
 ---
 
-## 0. Contexte & Problématique
+## . Contexte & Problématique
 
 Le projet TREND‑SENTINELLE part d’un constat métier : en 2026, il devient extrêmement difficile d’anticiper les futurs objets à commercialiser en se basant uniquement sur le scraping frontal de sites web.  
 Les plateformes renforcent leurs protections, les contenus sont dynamiques, et les signaux réellement intéressants apparaissent bien avant que les produits ne soient listés sur les marketplaces.
