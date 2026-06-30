@@ -1,5 +1,15 @@
 # TREND-SENTINELLE  
 
+##  Contexte & Problématique
+
+Le projet TREND‑SENTINELLE part d’un constat métier : en 2026, il devient extrêmement difficile d’anticiper les futurs objets à commercialiser en se basant uniquement sur le scraping frontal de sites web.  
+Les plateformes renforcent leurs protections, les contenus sont dynamiques, et les signaux réellement intéressants apparaissent bien avant que les produits ne soient listés sur les marketplaces.
+
+Pour répondre à cette problématique, nous avons adopté une approche plus **transversale** :  
+plutôt que de scraper des pages produits, TREND‑SENTINELLE analyse des **flux d’informations technologiques**, détecte des **objets émergents**, identifie des **signaux faibles**, regroupe les contenus en **clusters thématiques**, puis génère une **synthèse IA locale** permettant d’entrevoir les tendances à venir.
+
+Cette approche permet de repérer des objets avant leur apparition commerciale, en s’appuyant sur des signaux précurseurs plutôt que sur des listings produits.
+
 ## Système de veille automatisée, détection d’objets et synthèse IA locale
 
 TREND‑SENTINELLE est un pipeline de veille automatisée conçu pour détecter des objets, signaux faibles et tendances émergentes à partir de flux d’informations technologiques.  
@@ -24,18 +34,6 @@ Le système transforme des contenus hétérogènes en objets structurés, scoré
 - Synthèse IA locale (RAG)
 
 Ce README documente l’architecture réelle du projet, son pipeline exact et les modules effectivement utilisés.
-
----
-
-## . Contexte & Problématique
-
-Le projet TREND‑SENTINELLE part d’un constat métier : en 2026, il devient extrêmement difficile d’anticiper les futurs objets à commercialiser en se basant uniquement sur le scraping frontal de sites web.  
-Les plateformes renforcent leurs protections, les contenus sont dynamiques, et les signaux réellement intéressants apparaissent bien avant que les produits ne soient listés sur les marketplaces.
-
-Pour répondre à cette problématique, nous avons adopté une approche plus **transversale** :  
-plutôt que de scraper des pages produits, TREND‑SENTINELLE analyse des **flux d’informations technologiques**, détecte des **objets émergents**, identifie des **signaux faibles**, regroupe les contenus en **clusters thématiques**, puis génère une **synthèse IA locale** permettant d’entrevoir les tendances à venir.
-
-Cette approche permet de repérer des objets avant leur apparition commerciale, en s’appuyant sur des signaux précurseurs plutôt que sur des listings produits.
 
 ---
 
