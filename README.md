@@ -2,15 +2,19 @@
 
 ## Système de veille automatisée, détection d’objets et synthèse IA locale
 
-TREND‑SENTINELLE est un pipeline local de veille automatisée conçu pour détecter des objets, signaux faibles et tendances émergentes à partir de flux d’informations technologiques.  
-Le système fonctionne entièrement hors‑ligne et transforme des contenus hétérogènes en objets structurés, scorés, clusterisés et synthétisés via IA locale.
+TREND‑SENTINELLE est un pipeline de veille automatisée conçu pour détecter des objets, signaux faibles et tendances émergentes à partir de flux d’informations technologiques.  
+L’architecture est hybride :  
+- la **collecte** peut s’appuyer sur des flux externes (RSS, Atom, HTML) et nécessite alors une connexion Internet ;  
+- toute la **chaîne d’analyse IA** (normalisation, filtrage, scoring, clustering, RAG local, génération du rapport) fonctionne **entièrement hors‑ligne**.
+
+Le système transforme des contenus hétérogènes en objets structurés, scorés, regroupés en clusters, puis synthétisés via une IA locale.
 
 ### Phases du pipeline
 
-**A. Collecte automatique des sources externes**  
+**A. Collecte des sources externes (mode connecté ou local)**  
 - RSS, Atom, HTML statique  
 - Normalisation des contenus  
-- Extraction des objets et métadonnées
+- Extraction des objets et métadonnées  
 
 **B. Analyse locale hors‑ligne**  
 - Filtrage des objets  
@@ -20,7 +24,6 @@ Le système fonctionne entièrement hors‑ligne et transforme des contenus hét
 - Synthèse IA locale (RAG)
 
 Ce README documente l’architecture réelle du projet, son pipeline exact et les modules effectivement utilisés.
-
 
 ---
 
