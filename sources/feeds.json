@@ -1,0 +1,22 @@
+[
+  {
+    "name": "techcrunch",
+    "url": "https://techcrunch.com/feed/"
+  },
+  {
+    "name": "the_verge",
+    "url": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+    "name": "wired",
+    "url": "https://www.wired.com/feed/rss"
+  },
+  {
+    "name": "frandroid",
+    "url": "https://www.frandroid.com/feed"
+  },
+  {
+    "name": "les_numeriques",
+    "url": "https://www.lesnumeriques.com/rss.xml"
+  }
+]

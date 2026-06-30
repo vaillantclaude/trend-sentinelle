@@ -1,0 +1,52 @@
+{
+  "block_keywords": [
+    "politics", "election", "president", "government", "policy", "regulation",
+    "law", "court", "trial", "lawsuit", "conflict", "war", "geopolitics",
+    "diplomacy", "minister", "parliament", "senate",
+
+    "stock market", "stocks", "bonds", "forex", "crypto", "bitcoin",
+    "ethereum", "token", "merger", "acquisition", "earnings",
+    "quarterly results", "ipo", "funding round", "valuation",
+
+    "advertising", "marketing campaign", "brand strategy",
+
+    "celebrity", "hollywood", "movie", "series", "music", "concert",
+
+    "sport", "football", "soccer", "basketball", "tennis", "esport",
+
+    "climate policy", "carbon tax", "environmental regulation",
+
+    "covid", "pandemic", "health policy"
+  ],
+
+  "block_sources": [
+    "cnn", "bbc", "reuters", "financial times", "the guardian",
+    "new york times", "washington post", "le monde", "le figaro",
+    "france info", "euronews", "al jazeera", "global times",
+    "times of india", "the hindu", "abc news", "nbc news"
+  ],
+
+  "boost_keywords": [
+    "device", "gadget", "hardware", "prototype", "concept product",
+    "smart home", "home automation", "smart lighting", "smart speaker",
+    "smart plug", "smart thermostat", "smart lock", "security camera",
+    "doorbell camera", "sensor", "motion sensor", "energy saving",
+    "low power", "battery life", "solar powered", "portable", "wearable",
+    "fitness tracker", "smartwatch", "health monitor", "sleep tracker",
+    "robot", "robotic", "robot vacuum", "cleaning robot", "kitchen appliance",
+    "smart kitchen", "coffee machine", "air purifier", "air quality monitor",
+    "water filter", "home device", "home gadget", "tool", "kit",
+    "starter kit", "modular", "modular system", "dock", "hub",
+    "charging station", "wireless charger", "power bank", "bluetooth speaker",
+    "headphones", "earbuds", "noise cancelling", "audio device", "camera",
+    "action camera", "drone", "3d printer", "smart toy", "educational toy",
+    "pet gadget", "pet feeder", "pet camera", "smart mirror", "smart desk",
+    "smart bed", "smart furniture", "iot device", "connected device",
+    "offline mode", "privacy-focused", "local processing", "edge device",
+    "home robot", "assistant robot", "elderly care", "senior device",
+    "assistive device", "mobility aid", "home safety", "alarm system"
+  ],
+
+  "min_summary_length": 120,
+  "max_age_days": 60
+}

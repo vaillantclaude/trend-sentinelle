@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Data local
+chroma_db/
+sqlite_db/
+logs/
+data/raw/
+data/processed/
+
+# Env
+.env
