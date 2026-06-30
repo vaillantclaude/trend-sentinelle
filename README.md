@@ -27,6 +27,18 @@ Ce README documente l’architecture réelle du projet, son pipeline exact et le
 
 ---
 
+## 0. Contexte & Problématique
+
+Le projet TREND‑SENTINELLE part d’un constat métier : en 2026, il devient extrêmement difficile d’anticiper les futurs objets à commercialiser en se basant uniquement sur le scraping frontal de sites web.  
+Les plateformes renforcent leurs protections, les contenus sont dynamiques, et les signaux réellement intéressants apparaissent bien avant que les produits ne soient listés sur les marketplaces.
+
+Pour répondre à cette problématique, nous avons adopté une approche plus **transversale** :  
+plutôt que de scraper des pages produits, TREND‑SENTINELLE analyse des **flux d’informations technologiques**, détecte des **objets émergents**, identifie des **signaux faibles**, regroupe les contenus en **clusters thématiques**, puis génère une **synthèse IA locale** permettant d’entrevoir les tendances à venir.
+
+Cette approche permet de repérer des objets avant leur apparition commerciale, en s’appuyant sur des signaux précurseurs plutôt que sur des listings produits.
+
+---
+
 # 1. Objectifs
 
 - Automatiser la collecte de signaux technologiques.  
