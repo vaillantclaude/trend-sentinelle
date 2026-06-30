@@ -225,6 +225,59 @@ python3 -m scripts.report
 
 ---
 
-# 12. Licence
+## 12. Exemple de sortie du pipeline (anonymisé)
+
+TREND‑SENTINELLE a analysé **142 items** provenant de plusieurs sources technologiques.  
+Après filtrage, **37 objets** ont été retenus et regroupés en **6 clusters**.  
+Ce tableau est un exemple anonymisé, représentatif du fonctionnement réel du pipeline.
+
+---
+
+### Top 5 objets détectés (exemple anonymisé)
+
+#### 1. Assistant vocal embarqué pour seniors  
+- Score : **0.92**  
+- Cluster : Autonomie & Assistance  
+- Résumé : assistant vocal embarqué permettant de déclencher des actions sans connexion internet.  
+- Analyse IA : tendance forte vers des interfaces vocales locales pour l’autonomie des personnes âgées.
+
+#### 2. Capteur de chute autonome  
+- Score : **0.89**  
+- Cluster : Sécurité & Détection  
+- Résumé : capteur embarqué détectant les chutes sans transmission cloud.  
+- Analyse IA : montée des dispositifs de sécurité autonomes, embarqués et respectueux de la vie privée.
+
+#### 3. Module de navigation intérieure  
+- Score : **0.87**  
+- Cluster : Mobilité & Indoor  
+- Résumé : navigation en intérieur sans GPS via capteurs inertiels.  
+- Analyse IA : forte tendance dans les bâtiments publics, hôpitaux et centres commerciaux.
+
+#### 4. Outil de transcription hors‑ligne  
+- Score : **0.84**  
+- Cluster : Productivité Locale  
+- Résumé : transcription audio locale garantissant la confidentialité.  
+- Analyse IA : demande croissante pour des outils souverains et hors‑ligne.
+
+#### 5. Micro‑service de synchronisation locale  
+- Score : **0.81**  
+- Cluster : Infrastructure Locale  
+- Résumé : synchronisation de données entre appareils sans serveur central.  
+- Analyse IA : tendance vers des architectures distribuées locales pour réduire les dépendances externes.
+
+---
+
+### Synthèse des clusters détectés
+
+- Autonomie & Assistance  
+- Sécurité & Détection  
+- Mobilité & Indoor  
+- Productivité Locale  
+- Infrastructure Locale  
+- Habitat & Monitoring  
+
+Ce tableau est un exemple anonymisé, représentatif du fonctionnement réel du pipeline TREND‑SENTINELLE.
+
+# 13. Licence
 
 Projet open-source, réutilisable dans un cadre professionnel ou académique.
